@@ -1,0 +1,40 @@
+{
+  "name": "starter-template",
+  "version": "1.0.0",
+  "description": "Example starter-template",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "copy-libs": "cpx \"node_modules/{angular,angular-*,bootstrap/dist,jquery,popper.js/dist,roboto-fontface,geomanist}/**/*\" src/libs -C",
+    "preset": "babel ./src/app.js -o ./src/app-bundle.js ",
+    "dev": "node server.js",
+    "dev-mount": "grunt mount-server"
+  },
+  "keywords": [],
+  "author": "Anderson Sousa",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/cli": "7.10.5",
+    "@babel/core": "7.10.5",
+    "@babel/preset-env": "7.10.4",
+    "cpx": "1.5.0",
+    "eslint": "7.4.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "grunt": "1.2.1",
+    "grunt-babel": "^8.0.0",
+    "grunt-war": "0.5.1",
+    "live-server": "1.2.1",
+    "prettier": "2.0.5"
+  },
+  "dependencies": {
+    "angular": "1.5.9",
+    "angular-route": "1.5.9",
+    "angular-sanitize": "1.5.9",
+    "bootstrap": "4.5.0",
+    "geomanist": "0.0.3",
+    "jquery": "1.9.1",
+    "popper.js": "1.16.1",
+    "roboto-fontface": "0.10.0"
+  }
+}

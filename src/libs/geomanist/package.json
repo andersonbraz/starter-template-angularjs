@@ -1,0 +1,52 @@
+{
+  "_from": "geomanist",
+  "_id": "geomanist@0.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-W0tQihHtOTrpO6eQk2j7y/MmCLo=",
+  "_location": "/geomanist",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "geomanist",
+    "name": "geomanist",
+    "escapedName": "geomanist",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/geomanist/-/geomanist-0.0.3.tgz",
+  "_shasum": "5b4b508a11ed393ae93ba7909368fbcbf32608ba",
+  "_spec": "geomanist",
+  "_where": "C:\\Capgemini\\Labbs\\starter-template",
+  "author": {
+    "name": "e-JOINT.jp"
+  },
+  "bugs": {
+    "url": "https://github.com/ejointjp/geomanist/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "geomanist webfont",
+  "homepage": "https://github.com/ejointjp/geomanist#readme",
+  "keywords": [
+    "webfont"
+  ],
+  "license": "MIT",
+  "main": "null",
+  "name": "geomanist",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejointjp/geomanist.git"
+  },
+  "scripts": {
+    "build": "sass geomanist-full.scss:geomanist.css --sourcemap=none --style expanded",
+    "start": "sass --watch geomanist.scss:geomanist.css --sourcemap=none --style expanded",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.3"
+}

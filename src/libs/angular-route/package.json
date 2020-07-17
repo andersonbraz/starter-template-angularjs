@@ -1,0 +1,64 @@
+{
+  "_from": "angular-route@1.5.9",
+  "_id": "angular-route@1.5.9",
+  "_inBundle": false,
+  "_integrity": "sha1-TwWC6w+0Q1RDoFp9jF65vcLFxBw=",
+  "_location": "/angular-route",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "angular-route@1.5.9",
+    "name": "angular-route",
+    "escapedName": "angular-route",
+    "rawSpec": "1.5.9",
+    "saveSpec": null,
+    "fetchSpec": "1.5.9"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/angular-route/-/angular-route-1.5.9.tgz",
+  "_shasum": "4f0582eb0fb4435443a05a7d8c5eb9bdc2c5c41c",
+  "_spec": "angular-route@1.5.9",
+  "_where": "C:\\Capgemini\\Labbs\\starter-template",
+  "author": {
+    "name": "Angular Core Team",
+    "email": "angular-core+npm@google.com"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular.js/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "AngularJS router module",
+  "homepage": "http://angularjs.org",
+  "jspm": {
+    "shim": {
+      "angular-route": {
+        "deps": [
+          "angular"
+        ]
+      }
+    }
+  },
+  "keywords": [
+    "angular",
+    "framework",
+    "browser",
+    "router",
+    "client-side"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "angular-route",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.5.9"
+}

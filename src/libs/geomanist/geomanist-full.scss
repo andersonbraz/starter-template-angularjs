@@ -1,0 +1,8 @@
+$geomanist_eot: true !default; // IE 9
+$geomanist_eot_iefix: true !default; // IE 6-8
+$geomanist_woff2: true !default; // modern browsers
+$geomanist_woff: true !default; // modern browsers
+$geomanist_ttf: true !default; // Android 4.3- Opera mini
+$geomanist_svg: true !default; // legacy iOS
+
+@import 'geomanist';

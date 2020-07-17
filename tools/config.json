@@ -1,0 +1,12 @@
+{
+    "server": {
+        "dev": {
+            "port": 8282,
+            "host": "localhost",
+            "root": "./",
+            "open": true,
+            "watch": ["src"],
+            "file": "index.html"
+        }
+    }
+}
